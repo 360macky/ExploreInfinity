@@ -5,7 +5,7 @@
     <title>🔭 ExtraSolar</title>
     <meta name="description" content="Descubre la naturaleza de los exoplanetas">
   <style media="screen">
-  @import url('https://fonts.googleapis.com/css?family=Gugi');
+  @import url('https://fonts.googleapis.com/css?family=Gugi|Just+Another+Hand|Roboto|Roboto+Mono');
     body{
       margin: 0px;
       background-color: black;
@@ -38,6 +38,33 @@
     a:hover{
       color: #c0cfff
     }
+    .div-slogan{
+      font-family: 'Just Another Hand', cursive;
+      color: white;
+      display: block;
+      text-align: center;
+      font-size: 100px;
+      background-image: url(https://i.pinimg.com/originals/23/32/d1/2332d17151c2c91610bfb231a8ef5105.gif);
+    }
+    .b-main{
+      font-size: 15px;
+      background-color: black;
+      color: white;
+      padding: 10px;
+      border: 1px solid white;
+      border-radius: 5px;
+      font-family: 'Roboto Mono', monospace;
+      cursor: pointer;
+    }
+    .b-main:hover{
+      color: #F0F0F0;
+    }
+    .div-table{
+      color: white;
+      display: block;
+      text-align: center;
+      font-size: 100px;
+    }
   </style>
   </head>
   <body>
@@ -51,7 +78,11 @@
           </div>
       </header>
   </body>
-  <div>
-    "Siempre mira a las estrellas"
+  <div class="div-slogan">
+    Discover other planets
+  </div>
+  <div class="div-table">
+    <button type="button" name="button" class="b-main">Historia reciente</button>
+    <button type="button" name="button" class="b-main">Nuevos exoplanetas descubiertos</button>
   </div>
 </html>
