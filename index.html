@@ -5,7 +5,7 @@
     <title>🔭 ExtraSolar</title>
     <meta name="description" content="Descubre la naturaleza de los exoplanetas">
   <style media="screen">
-@import url('https://fonts.googleapis.com/css?family=Gugi|Roboto');
+  @import url('https://fonts.googleapis.com/css?family=Gugi|Just+Another+Hand|Roboto|Roboto+Mono');
     body{
       margin: 0px;
       background-color: #4f5b62;
@@ -18,7 +18,7 @@
     }
     .main-title{
       font-family: 'Gugi', cursive;
-      font-size: 50px;
+      font-size: 50px
       color: white;
       display: block;
       text-align: center;
@@ -39,18 +39,32 @@
     a:hover{
       color: #c0cfff
     }
-    article{
-      margin: 4px;
+    .div-slogan{
+      font-family: 'Just Another Hand', cursive;
+      color: white;
       display: block;
-      width: 40%;
-      margin: 0 auto;
-      padding: 15px;
-      background-color: white;
       text-align: center;
+      font-size: 100px;
+      background-image: url(https://i.pinimg.com/originals/23/32/d1/2332d17151c2c91610bfb231a8ef5105.gif);
     }
-    .main-image{
-      width: 400px;
-
+    .b-main{
+      font-size: 15px;
+      background-color: black;
+      color: white;
+      padding: 10px;
+      border: 1px solid white;
+      border-radius: 5px;
+      font-family: 'Roboto Mono', monospace;
+      cursor: pointer;
+    }
+    .b-main:hover{
+      color: #F0F0F0;
+    }
+    .div-table{
+      color: white;
+      display: block;
+      text-align: center;
+      font-size: 100px;
     }
   </style>
   </head>
@@ -70,4 +84,11 @@
           <button type="button" name="button">Misiones para estudiar exoplanetas</button>
         </div>
   </body>
+  <div class="div-slogan">
+    Discover other planets
+  </div>
+  <div class="div-table">
+    <button type="button" name="button" class="b-main">Historia reciente</button>
+    <button type="button" name="button" class="b-main">Nuevos exoplanetas descubiertos</button>
+  </div>
 </html>
