@@ -1,5 +1,5 @@
-# ExtraSolar
-Website desarrollado en HTML5, CSS3 y JavaScript para explicar la naturaleza de los exoplanetas o planetas extrasolares.
+# ExploreInfinity
+Website desarrollado en HTML5 y CSS3 para explicar las maravillas del cosmos.
 
 ## 🛠️ Fuentes empleadas
 [Exoplanet.eu](http://exoplanet.eu/catalog/)
