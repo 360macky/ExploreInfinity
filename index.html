@@ -2,75 +2,116 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>🔭 ExtraSolar</title>
+    <title>🔭 Explore Infinity</title>
     <meta name="description" content="Descubre la naturaleza de los exoplanetas">
-  <style media="screen">
-  @import url('https://fonts.googleapis.com/css?family=Gugi|Just+Another+Hand|Roboto|Roboto+Mono');
-    body{
-      margin: 0px;
-      background-color: #4f5b62;
-      background-repeat: no-repeat;
-      background-position: top center;
-      display: block;
-    }
-    .main-header{
-      background-color: #000a12;
-    }
-    .main-title{
-      font-family: 'Gugi', cursive;
-      font-size: 50px
-      color: white;
-      display: block;
-      text-align: center;
-      padding: 15px
-    }
-    .main-submenu{
-      font-family: 'Roboto', sans-serif;
-      background-color: #263238;
-      display: block;
-      text-align: center;
-      padding: 5px
-    }
-    a{
-      font-size: 20px;
-      color:white;
-      text-decoration: none;
-    }
-    a:hover{
-      color: #c0cfff
-    }
-    .div-slogan{
-      font-family: 'Just Another Hand', cursive;
-      color: white;
-      display: block;
-      text-align: center;
-      font-size: 100px;
-      background-image: url(https://i.pinimg.com/originals/23/32/d1/2332d17151c2c91610bfb231a8ef5105.gif);
-    }
-    .b-main{
-      font-size: 15px;
-      background-color: black;
-      color: white;
-      padding: 10px;
-      border: 1px solid white;
-      border-radius: 5px;
-      font-family: 'Roboto Mono', monospace;
-      cursor: pointer;
-    }
-    .b-main:hover{
-      color: #F0F0F0;
-    }
-    .div-table{
-      color: white;
-      display: block;
-      text-align: center;
-      font-size: 100px;
-    }
-  </style>
+
+    <!--Material Design Lite-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+	  <style media="screen">
+	  @import url('https://fonts.googleapis.com/css?family=Gugi|Just+Another+Hand|Roboto|Roboto+Mono');
+	  /*
+	    body{
+	      margin: 0px;
+	      background-color: #4f5b62;
+	      background-repeat: no-repeat;
+	      background-position: top center;
+	      display: block;
+	    }
+	    .main-header{
+	      background-color: #000a12;
+	    }
+	    .main-title{
+	      font-family: 'Gugi', cursive;
+	      font-size: 50px
+	      color: white;
+	      display: block;
+	      text-align: center;
+	      padding: 15px
+	    }
+	    .main-submenu{
+	      font-family: 'Roboto', sans-serif;
+	      background-color: #263238;
+	      display: block;
+	      text-align: center;
+	      padding: 5px
+	    }
+	    a{
+	      font-size: 20px;
+	      color:white;
+	      text-decoration: none;
+	    }
+	    a:hover{
+	      color: #c0cfff
+	    }
+	    .div-slogan{
+	      font-family: 'Just Another Hand', cursive;
+	      color: white;
+	      display: block;
+	      text-align: center;
+	      font-size: 100px;
+	      background-image: url(https://i.pinimg.com/originals/23/32/d1/2332d17151c2c91610bfb231a8ef5105.gif);
+	    }
+	    .b-main{
+	      font-size: 15px;
+	      background-color: black;
+	      color: white;
+	      padding: 10px;
+	      border: 1px solid white;
+	      border-radius: 5px;
+	      font-family: 'Roboto Mono', monospace;
+	      cursor: pointer;
+	    }
+	    .b-main:hover{
+	      color: #F0F0F0;
+	    }
+	    .div-table{
+	      color: white;
+	      display: block;
+	      text-align: center;
+	      font-size: 100px;
+	    */
+	    .mdl-layout__header{
+	    	background-color: black;
+	    }
+	  </style>
   </head>
-  <body>
+  <body><!-- Always shows a header, even in smaller screens. -->
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+	  <header class="mdl-layout__header">
+	    <div class="mdl-layout__header-row">
+	      <!-- Title -->
+	      <span class="mdl-layout-title">Explore Infinity ♾️</span>
+	      <!-- Add spacer, to align navigation to the right -->
+	      <div class="mdl-layout-spacer"></div>
+	      <!-- Navigation. We hide it in small screens. -->
+	      <nav class="mdl-navigation mdl-layout--large-screen-only">
+	        <a class="mdl-navigation__link" href="">Link</a>
+	        <a class="mdl-navigation__link" href="">Link</a>
+	        <a class="mdl-navigation__link" href="">Link</a>
+	        <a class="mdl-navigation__link" href="">Link</a>
+	      </nav>
+	    </div>
+	  </header>
+	  <div class="mdl-layout__drawer">
+	    <span class="mdl-layout-title">Cosmos</span>
+	    <nav class="mdl-navigation">
+	      <a class="mdl-navigation__link" href="">Link</a>
+	      <a class="mdl-navigation__link" href="">Link</a>
+	      <a class="mdl-navigation__link" href="">Link</a>
+	      <a class="mdl-navigation__link" href="">Link</a>
+	    </nav>
+	  </div>
+	  <main class="mdl-layout__content">
+	    <div class="page-content"><!-- Your content goes here --></div>
+	  </main>
+	</div>
+
+  	<!--
       <header class="main-header">
-          <div class="main-title">ExtraSolar</div>
+          <h1>Explore Infinity ♾️</h1>
           <div class="main-submenu">
             <a href="#">Inicio</a> -
             <a href="#">Descubre</a> -
@@ -90,5 +131,6 @@
   <div class="div-table">
     <button type="button" name="button" class="b-main">Historia reciente</button>
     <button type="button" name="button" class="b-main">Nuevos exoplanetas descubiertos</button>
-  </div>
+  </div>-->
+
 </html>
