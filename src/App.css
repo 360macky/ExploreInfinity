@@ -20,3 +20,17 @@ body {
 .App-link {
   color: #09d3ac;
 }
+
+.news-section {
+  text-align: center;
+}
+
+.news a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.news a:hover {
+  text-decoration: underline;
+}
