@@ -11,6 +11,16 @@ body {
   text-align: center;
 }
 
+.header {
+  margin: 2rem;
+}
+
+.App-header-img {
+  width: 15rem;
+  display: block;
+  margin: auto;
+}
+
 .App-link {
   color: #09d3ac;
 }
