@@ -9,5 +9,5 @@ La estructura del proyecto fue desarrollada automáticamente `npx create-react-a
 ## 📦 Deployment
 Una vez el proyecto ha sido clonado/descargado. Abre la terminal dentro de la carpeta y, con [NodeJS](https://nodejs.org/en/) instalado en el ordenador, sólo ejecuta el comando
 ```
-npm init
+npm start
 ```
