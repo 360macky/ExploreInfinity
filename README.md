@@ -1,5 +1,6 @@
 # ExploreInfinity
-Website/Directorio desarrollado en ReactJS para descubrir un poco más el cosmos.
+Website/Directorio desarrollado en ReactJS para descubrir un poco más el cosmos a través de noticias.
+![Screenshot of the website](screenshot.png)
 
 ## ⚙️ Estructura
 La estructura del proyecto fue desarrollada automáticamente `npx create-react-app`.
