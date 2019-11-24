@@ -1,5 +1,5 @@
 # ExploreInfinity
-Website/Directorio desarrollado en ReactJS para descubrir un poco más el cosmos a través de noticias.
+Website/Directorio de prueba desarrollado en ReactJS para descubrir un poco más el cosmos a través de enlaces a noticias.
 ![Screenshot of the website](screenshot.png)
 
 ## ⚙️ Estructura
